@@ -7,3 +7,4 @@ console.log("hi this is main");
 // main.js
 // import {hello} from "module"; 
 // let val = hello();
+ 
