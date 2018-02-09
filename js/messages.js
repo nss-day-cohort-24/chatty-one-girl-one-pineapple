@@ -1,10 +1,10 @@
 "use strict";
 
 var output = document.getElementById("output");
-console.log("output", output);
+// console.log("output", output);
 
 var btns = document.getElementById("btn");
-console.log("btns", btns);
+// console.log("btns", btns);
 
 var prefilledmessages = new XMLHttpRequest();
 function dataMessages(event) // this is what it targets
@@ -16,7 +16,7 @@ function dataMessages(event) // this is what it targets
         document.getElementById("output").innerHTML = myObj.name;
     }
     // make a function, name it, (event), then it creates a variable that parses the JSON
-};
+}
 prefilledmessages.open("GET", "message.json");
 prefilledmessages.send();
 
@@ -24,5 +24,5 @@ prefilledmessages.send();
 // export function hello() {
 //   return "Hello";
 
-module.exports = messages;
+// module.exports = messages;
 console.log("Welcome, messages.js!");
