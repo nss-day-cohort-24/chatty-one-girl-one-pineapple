@@ -1,5 +1,10 @@
 "use strict";
-console.log("this is the messages.js");
+
+var output = document.getElementById("output");
+console.log("output", output);
+
+var btns = document.getElementById("btn");
+console.log("btns", btns);
 
 var prefilledmessages = new XMLHttpRequest();
 function dataMessages(event) // this is what it targets
@@ -18,3 +23,6 @@ prefilledmessages.send();
 // module.js
 // export function hello() {
 //   return "Hello";
+
+module.exports = messages;
+console.log("Welcome, messages.js!");
