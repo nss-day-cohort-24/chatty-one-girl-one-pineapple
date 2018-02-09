@@ -11,7 +11,7 @@ function dataMessages(event) // this is what it targets
         document.getElementById("output").innerHTML = myObj.name;
     }
     // make a function, name it, (event), then it creates a variable that parses the JSON
-};
+}
 prefilledmessages.open("GET", "message.json");
 prefilledmessages.send();
 
