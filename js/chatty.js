@@ -1,6 +1,6 @@
 "use strict";
 
-let nav = require("./nav");
+let nav = require("./returnListener");
 let options = require("./options");
 let messages = require("./messages");
 
