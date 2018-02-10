@@ -21,6 +21,7 @@ nav {
     
 }
 
+
 .col-xs-4 {
    height: 60px;
    width: 85%;
@@ -28,6 +29,7 @@ nav {
 
 
 .lower-box{
+    height: 30%;
     width: 50%;
     border: 1px solid black;
    padding: 0px;
@@ -38,15 +40,31 @@ nav {
 
 
 
+
+// Alexis Part/ Start
+
 .deleteMessages {
     position: relative;
-    left: 900px;
+   left: 90%;
 }
 
-.form-group {
+.container.center_div{
+    border: 1px solid black;
+    margin-top: 60px;
     width: 70%;
+
+    
+}
+
+
+.form-group {
+    border: 1px solid black;
+    width: 70%;
+    margin-left: 70px;
 }
 
 .form-control {
-    height: 500px;
+    height: 300px;
+   
 }
+// Alexis Part/ Ends
