@@ -1,70 +1,145 @@
 
-
-nav {
-    width: 100%;
-    height: 25%;
-    padding: 0;
-    border: 1px solid black;
+// body{
+// background-color: #aaaaaa;
+// }
+// .message-container{
+//     height:auto;
+//     margin:5px 0px 5px 5px;
+//     padding:10px;
+//     border:solid 1px #aaaaaa;
+//     border-radius:8px;
+//     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  
+// }
+.message{
+    display:inline-block;
+    margin:10px 20px 10px 20px;
+    padding:20px;
+    border:solid 1px #2C314f;
+    border-radius:8px;
+    color:#2c314f;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 
 
+.centered{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
 
+.large-font{
+    font-size:30px;
+}
 
+.body-wrapper{
+    // border:solid 3px black;
+    position:absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    display:flex;
+    flex-direction:column;
+    background:#7acdcf;
+    font-family: 'Montserrat', sans-serif;
+}
 
-.input-box{
-    width: 50%;
-    border: 1px solid black;
-   padding: 0px;
-   margin-right: 200px;
+.chat-wrapper{
+    flex-grow:4;
+    width:100%;
+    height:100%;
+    // border:solid 3px blue;
+}
 
+.chat-box{
+    width:100%;
+    height:80%;
+    min-width:320px;
+    max-width:500px;
+    background:#ffffff;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    border-radius:8px;
+    overflow:scroll;
+}
+
+.toolbar{
+    width:100%;
+    display:flex;
+   
+    min-height:100px;
+    // border:solid 3px green;
+    background:#FFFFFF;
+    -webkit-box-shadow: 1px -2px 5px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 1px -2px 5px 0px rgba(0,0,0,0.5);
+    box-shadow: 1px -2px 5px 0px rgba(0,0,0,0.5);
+}
+
+.column{
+
+    flex-grow:1;
+    flex-basis:0;
     
 }
 
 
-.col-xs-4 {
-   height: 60px;
-   width: 85%;
-}
 
-
-.lower-box{
-    height: 30%;
-    width: 50%;
-    border: 1px solid black;
-   padding: 0px;
-   
-   margin-left: 25%;
-
-}
-
-
-
-
-// Alexis Part/ Start
-
-.deleteMessages {
-    position: relative;
-   left: 90%;
-}
-
-.container.center_div{
-    border: 1px solid black;
-    margin-top: 60px;
-    width: 70%;
-
+.logo-container{
+    max-width:100px;
+    height:100%;
+    // border:solid 3px orange;
     
+
+    img{
+        display:block;
+        max-width:55px;
+        width: auto;
+        height: auto;
+    }
 }
 
 
-.form-group {
-    border: 1px solid black;
-    width: 70%;
-    margin-left: 70px;
-}
-
-.form-control {
-    height: 300px;
+.form-container{
+    display:flex;
+    flex-direction:column;
+    height:100%;
+    width:100%;
+    min-width:320px;
+    max-width:500px;
    
 }
-// Alexis Part/ Ends
+
+
+.message-text-area{
+    background:#efeee9;
+    height:65px;
+    width:100%;
+    border-radius:3px;
+}
+
+.button-wrapper{
+    height:100%;
+    display:flex;
+    align-items:center;
+    padding-left:10px;
+}
+
+.green-swatch{
+    background:#7acdcf
+}
+
+.dark-blue-swatch{
+    background:#2c314f
+}
+
+
+.small-button{
+    height:40px;
+    width:100px;
+    max-width:100px;
+    border-radius:20px;
+    font-family: 'Montserrat', sans-serif;
+    color:#FFFFFF;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
